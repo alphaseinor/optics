@@ -29,7 +29,9 @@ nav div{
 }
 
 h2 {
+  font-size: 2rem;
   font-weight: bold;
+  line-height: 1.2;
 }
 
 .menu_large{
