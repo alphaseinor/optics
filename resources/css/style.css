@@ -3,7 +3,36 @@ html{
   font-size: 18px;
 }
 
+header{
+  padding-top: 1rem;
+  height: 30rem;
+}
 
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  background-color: cadetblue;
+  color: white;
+}
+nav div{
+  display: flex;
+  align-items: center
+}
+
+.menu_large{
+  padding: 1rem 0;
+}
+
+.menu_small{
+  display: none;
+}
+
+.menu_large span{
+  display: inline;
+  padding: 0 1rem;
+}
 
 .flex {
   display: flex;
@@ -16,4 +45,13 @@ html{
 
 .uppercase {
   text-transform: uppercase;
+}
+
+@media only screen and (max_size: 600px){
+  .menu_large span{
+    display: none;
+  }
+  .menu_small span{
+    display: inline;
+  }
 }
