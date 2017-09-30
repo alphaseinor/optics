@@ -1,3 +1,125 @@
+html{
+  font-family: helvetica;
+  font-size: 18px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: cadetblue;
+  color: white;
+  padding: 1rem 0;
+}
+
+header img{
+  margin-left: 2rem;
+  height: 1.5rem;
+}
+
+header .container{
+  margin-top: 1rem;
+  padding: .66rem 0 .66rem .5em;
+}
+header span{
+  padding-left: 1rem;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+  color: white;
+}
+
+nav .boxen{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav span{
+  padding: 1rem 2rem;
+}
+
+.banner {
+  height: 25rem;
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.tagline {
+  text-align: right;
+  background-color: white;
+  line-height: 1.2;
+  color: black;
+  padding: 1.5rem 5rem;
+  position: relative;
+  top: 10rem;
+  right: -2rem;
+}
+
+h2.tagline {
+  font-size: 2rem;
+}
+
+.products {
+  margin: 3rem 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product{
+  width: 30%;
+}
+
+.product span {
+  display: block;
+  background-color: cadetblue;
+  color: white;
+  text-align: center;
+  padding: .5rem;
+}
+
+.small_menu{
+  display: none;
+}
+
+.detail-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  padding: 2rem 0;
+}
+
+.business_info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.information {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  width: 35%;
+}
+
+.product img{
+  max-width: 8rem;
+}
+
+footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  background-color: azure;
+  text-align: left;
+}
+
+.container{
+  max-width: 960px;
+  margin: auto;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
