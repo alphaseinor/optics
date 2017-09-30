@@ -1,11 +1,19 @@
 html{
-  font-family: helvetica;
-  font-size: 18px;
+  font-family: helvetica; /*love it or hate it without it everything would look like cursive*/
+  font-size: 18px; /*base 1rem size*/
 }
 
 header{
-  padding-top: 1rem;
-  height: 30rem;
+  background-image: url("../images/glasses-bg.png"); /*adds image*/
+  background-repeat: no-repeat; /*adds a no repeat so it only appears once*/
+  background-size: cover; /* makes image shrink to the size of the available area*/
+  padding-top: 1rem; /* leavea a 1rem gap at the top of the cadetblue header area*/
+  height: 30rem; /*sets the height of the header area to 30rem*/
+}
+
+header img{
+  padding: 0 1rem 0 2rem; /*top 0, right 1rem, bottom 0, left 2rem*/
+  height: 1.5rem; /*height of the image per the redline document*/
 }
 
 nav{
