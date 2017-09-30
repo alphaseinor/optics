@@ -28,6 +28,10 @@ nav div{
   align-items: center
 }
 
+h2 {
+  font-weight: bold;
+}
+
 .menu_large{
   padding: 1rem 0;
 }
@@ -41,6 +45,13 @@ nav div{
   padding: 0 1rem;
 }
 
+.tagline{
+  background-color: white;
+  padding: .75rem 5rem;
+  display: inline-block;
+  margin-top: 10rem;
+  margin-right: -2rem;
+}
 .flex {
   display: flex;
 }
