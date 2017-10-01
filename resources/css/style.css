@@ -13,7 +13,7 @@ header{
 }
 
 header img{
-  padding: 0 1rem 0 2rem; /*top 0, right 1rem, bottom 0, left 2rem*/
+  margin: 0 1rem 0 2rem; /*top 0, right 1rem, bottom 0, left 2rem*/
   height: 1.5rem; /*height of the image per the redline document*/
 }
 
@@ -33,6 +33,11 @@ h2 {
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.2;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
 }
 
 .menu_large{
@@ -130,7 +135,7 @@ footer img{
 
 @media only screen and (max-width: 900px){
   header{
-    margin-top: 0;
+    padding-top: 0;
     height: 22rem;
   }
   h2{
@@ -146,20 +151,29 @@ footer img{
 
 @media only screen and (max-width: 600px) {
   header{
-    margin-top: 0;
+    padding-top: 0;
     height: 17rem;
+    background-position: 20%;
+  }
+  nav{
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
   h2{
     font-size: 1rem;
   }
   .tagline{
-    margin: 9rem 1rem;
+    width: 100%;
+    margin: 9rem 0;
+    padding: 1rem 0;
+    text-align: center;
   }
   .container{
     width: 100%;
   }
   .menu_small{
-      display: inline-block;
+      display: block;
+      margin-right: 1rem;
   }
   .menu_large span{
     display: inline;
