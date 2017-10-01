@@ -27,6 +27,7 @@ nav{
 nav div{
   display: flex;
   align-items: center
+
 }
 
 h2 {
@@ -105,6 +106,7 @@ img.paper {
   padding: .5rem 1.25rem;
   color: white;
   max-width: 10rem;
+  font-weight: bold;
 }
 
 footer{
@@ -195,6 +197,7 @@ footer img{
   }
   .product div {
     margin-top: 1em;
+    font-size: .77rem;
   }
 
   .details{
@@ -209,6 +212,9 @@ footer img{
   .detail_header{
     max-width: none;
     width: 100%
+  }
+  .detail span {
+    font-size: .77rem;
   }
 
   footer{
