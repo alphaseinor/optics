@@ -182,4 +182,18 @@ footer img{
   .menu_large{
     display: none;
   }
+  .products{
+    margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .product{
+    margin: 1.54rem;
+    height: auto;
+  }
+  .product div {
+    margin-top: 1em;
+  }
 }
