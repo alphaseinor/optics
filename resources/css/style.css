@@ -196,4 +196,27 @@ footer img{
   .product div {
     margin-top: 1em;
   }
+
+  .details{
+    flex-direction: column;
+    align-items: center;
+  }
+  .detail {
+    width: 100%;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .detail_header{
+    max-width: none;
+    width: 100%
+  }
+
+  footer{
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer div {
+    display: none;
+  }
 }
