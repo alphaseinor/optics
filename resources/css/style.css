@@ -54,6 +54,11 @@ h2 {
   margin-top: 10rem;
   margin-right: -2rem;
 }
+
+header .flex {
+  justify-content: flex-end;
+}
+
 .flex {
   display: flex;
 }
