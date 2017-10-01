@@ -7,6 +7,7 @@ header{
   background-image: url("../images/glasses-bg.png"); /*adds image*/
   background-repeat: no-repeat; /*adds a no repeat so it only appears once*/
   background-size: cover; /* makes image shrink to the size of the available area*/
+  background-position: center; /*centers the background image*/
   padding-top: 1rem; /* leavea a 1rem gap at the top of the cadetblue header area*/
   height: 30rem; /*sets the height of the header area to 30rem*/
 }
@@ -101,6 +102,19 @@ img.paper {
   max-width: 10rem;
 }
 
+footer{
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  padding: 4rem;
+}
+
+footer img{
+  display: block;
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -112,4 +126,46 @@ img.paper {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 900px){
+  header{
+    margin-top: 0;
+    height: 22rem;
+  }
+  h2{
+    font-size: 1.33rem;
+  }
+  .tagline{
+    margin: 5rem 2rem;
+  }
+  .container{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header{
+    margin-top: 0;
+    height: 17rem;
+  }
+  h2{
+    font-size: 1rem;
+  }
+  .tagline{
+    margin: 9rem 1rem;
+  }
+  .container{
+    width: 100%;
+  }
+  .menu_small{
+      display: inline-block;
+  }
+  .menu_large span{
+    display: inline;
+    padding: 0 1rem;
+  }
+  .menu_large{
+    display: none;
+  }
 }
