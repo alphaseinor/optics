@@ -213,6 +213,7 @@ footer img{
     max-width: none;
     width: 100%;
     text-align: center;
+    margin-bottom: 1rem;
   }
   .detail span {
     font-size: .77rem;
